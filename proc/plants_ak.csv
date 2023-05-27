@@ -1,0 +1,179 @@
+plant_id_eia,plant_name_eia,city,county,latitude,longitude,street_address,zip_code
+1,Sand Point,Sand Point,Aleutians East,55.339722,-160.497222,100 Power Plant Way,99661
+62,Annex Creek,Juneau,Juneau,58.3176,-134.101,Annex Creek,99801
+63,Gold Creek,Juneau,Juneau,58.3107,-134.4174,700 Capital Ave.,99801
+64,Lemon Creek,Juneau,Juneau,58.3536,-134.4953,5601 Tonsgard Ct.,99801
+65,Salmon Creek 1,Juneau,Juneau,58.3269,-134.4631,2750 Channel Vista Dr.,99801
+66,Skagway,Skagway,,59.4545,-135.3131,110 Spring St,99840
+69,Haines,Haines,Haines,59.235931,-135.445,241 Dalton St.,99927
+70,Swan Lake,Ketchikan,Ketchikan Gateway,,-131.3561,,99901
+71,Terror Lake Microgrid,Kodiak,Kodiak Island,57.6861,-152.895,20 miles southwest of Kodiak,99615
+75,Hank Nikkels Plant 1,Anchorage,Anchorage,61.2221,-149.8661,821 E. 1st Ave,99501
+77,Eklutna,Palmer,Matanuska Susitna,61.475211,-149.1501,Mile 4 Old Glenn Hwy.,99645
+78,Snettisham,Juneau,Juneau,58.1415,-133.737,Port Snettisham,99801
+79,Aurora Energy LLC,Fairbanks,Fairbanks North Star,64.847743,-147.7351,1206 First Ave.,99701
+84,Ketchikan,Ketchikan,Ketchikan Gateway,55.344641,-131.6334,1037 Fair St.,99901
+85,S W Bailey,Ketchikan,Ketchikan Gateway,55.357397,-131.6778,3935 Tongass Ave.,99901
+90,Snake River,Nome,Nome,64.505331,-165.429384,1226 Port Road,99762
+91,Petersburg,Petersburg,Wrangell Petersburg,56.81104,-132.9571,11 S. Nordic Drive,99833
+92,Seward,Seward,Kenai Peninsula,60.130922,-149.4417,605 SeaLion Avenue,99664
+93,Riley#03a,Sitka,Sitka,57.0516,-135.2297,SMC,99835
+95,Wrangell,Wrangell,Wrangell Petersburg,56.460976,-132.3683,1043 Case Ave,99929
+96,Beluga,Beluga,Kenai Peninsula,61.1861,-151.0356,Beluga Power Plant,99682
+109,Dillingham,Dillingham,Dillingham,59.042914,-157.89,557 Kenny Wren Rd.,99576
+313,Green Lake,Sitka,Sitka,56.986284,-135.1228,SMC,99835
+390,Solomon Gulch,Valdez,Valdez Cordova,61.0828,-146.3033,1455 Dayville road,99686
+406,Tok,Tok,Southeast Fairbanks,63.33552,-142.9856,Milepost 1314 AK Hwy,99780
+421,Craig,Craig,,55.47691,-133.1483,401 7th Street,99921
+423,Hydaburg,Prince of Wales,,55.204937,-132.8267,105 Hyda Street,99922
+789,Orca,Cordova,Valdez Cordova,60.555889,-145.7531,103 Orca Road,99574
+6281,Kodiak Microgrid,Kodiak,Kodiak Island,57.789956,-152.39675,615 Sargent St.,99615
+6282,Port Lions Microgrid,Port Lions,Kodiak Island,57.864775,-152.4058,20 miles west of Kodiak,99660
+6283,Seldovia,Seldovia,Kenai Peninsula,59.439542,-151.713488,270 Winifred Avenue,99663
+6285,North Pole,North Pole,Fairbanks North Star,64.7356,-147.3481,1150 H&H Lane,99705
+6286,Fairbanks,Fairbanks,Fairbanks North Star,64.854171,-147.7194,758 Illinois Street,99701
+6288,Healy,Healy,,63.8542,-148.95,2.5 Mile Healy Spur Road,99743
+6291,Cooper Lake,Cooper Landing,Kenai Peninsula,60.392331,-149.6656,Mile 12 Snug Harbor Road,99572
+6292,Bernice Lake,Nikiski,Kenai Peninsula,60.6935,-151.3874,53318 Chevron Refinery Road,99635
+6293,International,Anchorage,Anchorage,61.168972,-149.911,5601 Electron Dr.,99518
+6299,Unalakleet,Unalakleet,,63.876789,-160.9006,186 Main Street,99684
+6301,Naknek,Naknek,Bristol Bay,58.730417,-156.7319,1 School Road,99633
+6302,Purple Lake,Metlakatla,,55.091263,-131.545,Hatchery Road,99926
+6304,Kotzebue Hybrid,Kotzebue,,66.837778,-162.595929,245 4th Street,99752
+6305,Glennallen,Glennallen,Valdez Cordova,62.110415,-146.5494,mile post 187 Glenn highway,99588
+6306,Valdez,Valdez,Valdez Cordova,61.1303,-146.3647,527 West Egan,99686
+6311,Chevak,Chevak,Bethel,61.525297,-165.499444,14 Utility Drive,99563
+6314,Emmonak,Emmonak,,62.777694,-164.4864,07 Utility Drive,99581
+6319,Hooper Bay,Hooper Bay,Bethel,61.530858,-166.1003,08 Utility Drive,99604
+6323,Kiana,Kiana,,66.973889,-160.5053,01 Utility Drive,99749
+6329,Mountain Village,,Bethel,62.085569,-163.0783,68 Utility Drive,99632
+6330,Noorvik,Noorvik,,66.834519,-160.4958,02 Utility Drive,99763
+6333,Nunapitchuk,Nunapitchuk,Bethel,60.89588,-162.453333,09 Utility Drive,99641
+6338,St Mary's,,Bethel,62.051525,-163.2658,26 Utility Drive,99658
+6339,St Michael,,Nome,,,,99659
+6341,Selawik,Selawik,Northwest Arctic,66.606778,-160.1431,03 Utility Drive,99770
+6345,Shishmaref,Shishmaref,Nome,66.255072,-165.1108,27 Utility Drive,99772
+6348,Togiak,Togiak,Dillingham,59.059744,-160.385,10 Utility Drive,99678
+6555,McGrath,McGrath,Yukon Koyukuk,62.95699,-154.219444,,99627
+6559,George M Sullivan,Anchorage,Anchorage,61.229713,-149.7167,,99504
+6566,Bethel,Bethel,Bethel,60.7897,-161.7878,1340 Kwethluk Lane,99559
+6580,Beaver Falls,Ketchikan,Ketchikan Gateway,55.37975,-131.4703,13110 S. Tongass Ave.,99901
+6581,Silvis,Ketchikan,Ketchikan Gateway,55.381402,-131.5178,"(unnamed mtn road, remote)",99901
+6637,Yakutat,Yakutat,,59.544553,-139.725,#1 Forest Hwy.,99689
+6702,Pelican,Pelican,,57.957197,-136.2201,1120 Salmon Way,99832
+6801,Indian River,Sitka,,57.0497,-135.3128,103 Jarvis Street,99835
+7042,Humpback Creek,Cordova,Valdez Cordova,60.612822,-145.6794,Orca Inlet-Mile .05 Hmpbck Crk,99574
+7112,Centennial,Metlakatla,,55.121433,-131.5603,Walden Point Road,99926
+7168,Chester Lake,Metlakatla,,55.116879,-131.5459,Walden Point Road,99926
+7169,Northway,Tok,Southeast Fairbanks,62.9617,-141.9372,Milepost 1314 AK Hwy,99764
+7173,Barrow,Barrow,North Slope,71.292,-156.7786,1295 Agvik Street,99723
+7174,Gwitchyaa Zhee,Fort Yukon,Yukon Koyukuk,66.566287,-145.3064,,99740
+7182,Aniak,Aniak,Bethel,61.580678,-159.5317,4th Boundary Ave.,99557
+7183,I-N-N Electric,Iliamna,,59.899054,-154.6987,1001 Fire Lane,99606
+7250,Auke Bay,Juneau,Juneau,58.3875,-134.6446,12480 Mendenhall Loop Rd.,99801
+7367,Bradley Lake,Homer,Kenai Peninsula,59.77862,-150.9402,Bradley Lake,99603
+7414,Thorne Bay Plant,Craig,,55.68586,-132.5289,401 7th Street,99919
+7437,Galena Electric Util,Galena,Yukon Koyukuk,64.74417,-156.94,100 Antoski Drive,99741
+7462,Angoon,Angoon,,57.499166,-134.9772,,99820
+7463,Hoonah,Hoonah,,58.106432,-135.7433,681 White Alice Rd,99829
+7464,Kake,Kake,,56.962983,-133.908103,Keku Road,99830
+7466,Klawock,Ketchikan,,55.557778,-133.152222,111 Bayview Street,99925
+7467,Chilkat Valley,Haines,Haines,59.3856,-135.7333,Mosquito Lake Rd,99827
+7482,NSB Atqasuk Utility,Atqasuk,North Slope,70.4826,-157.3969,106 Tikigluk,99791
+7483,NSB Kaktovik Utility,Kaktovik,North Slope,70.125617,-143.7303,439 Fourth Street,99747
+7484,NSB Nuiqsut Utility,Nuiqsut,North Slope,70.220565,-152.7539,3300 Anaktuvuk Street,99789
+7485,NSB Point Hope Util,Pt Hope,North Slope,68.348424,-160.1919,1737 Qalgi Ave,99766
+7486,NSB Point Lay Util,PT Lay,North Slope,69.740833,-163.005833,109 Tuttunniaqvik Street,99759
+7487,NSB Anaktuvuk Pass,Anaktuvuk Pass,North Slope,68.13795,-152.1319,1024 Summer,99721
+7488,NSB Wainwright Util,Wainwright,North Slope,70.642877,-160.0614,117 Summer Rd,99782
+7493,King Cove,King Cove,,55.061683,-162.3103,10000 Windy Walkway,99612
+7502,Dutch Harbor,Dutch Harbor,,53.892459,-166.5361,1732 East Point Road,99692
+7503,Unalaska Power Mod,Unalaska,,,-166.5126,1035 East Broadway,99685
+7506,Healy Lake,Healy Lake,Fairbanks North Star,,,Milepost 1314 AK HWY,99737
+7608,Indian River Hydro I,,Not In File,,,,99841
+7723,Nymans Plant Microgrid,Kodiak,Kodiak Island,57.731608,-152.507,Seafarer Dr. Building 12,99619
+7751,Goat Lake Hydro,Skagway,,59.5357,-135.2123,110 Spring St,99840
+7752,Black Bear Lake,Craig,,55.476472,-133.1477,401 7th Street,99921
+7785,Healy Clean Coal,Healy,Denali Borough,63.854167,-148.95,2.5 Mile Healy Spur Road,99743
+7841,Valdez Co-Gen,Valdez,Valdez Cordova,61.0839,-146.2529,2.5 mile dayville road,99686
+7862,Power Creek,Cordova,Valdez Cordova,60.588686,-145.6045,Mile 7 Power Creek Rd,99574
+50308,Utility Plants Section,Fort Wainwright,Fairbanks North Star,64.825601,-147.6486,Bldg 3595,99703
+50392,Eielson Air Force Base Central,Eielson AFB,Fairbanks North Star,64.67141,-147.076,2676 Industrail Ave,99702
+50415,King Cove,King Cove,Aleutian Islands,,,500k Cannery Row,99612
+50711,University of Alaska Fairbanks,Fairbanks,Fairbanks North Star,64.854171,-147.8221,802 Alumni drive,99775
+52184,Tesoro Alaska Petroleum,Kenai,Kenai Peninsula,60.677,-151.3815,54741 Tesoro Road,99611
+54151,Central Production Facility 1,,,,,,99734
+54152,Central Production Facility 2,,,,,,99734
+54153,Central Production Facility 3,,,,,,99734
+54154,Seawater Treatment,,,,,,99734
+54155,Lisburne Production Center,,North Slope,,,,99734
+54222,Alyeska Seafoods Inc,Unalaska,Aleutian Islands,,,551 W Broadway,99685
+54305,Westward Seafoods Inc,Dutch Harbor,,53.858508,-166.5529,One Mile Captains Bay rd.,99692
+54422,Unisea Incorporated G 2,Dutch Harbor,,53.8796,-166.5583,Salmon Way,99692
+54436,Monopod Platform,,Kenai Peninsula,,,,99611
+54437,Dillon Platform,,Kenai Peninsula,,,,99611
+54438,Granite Point Platform,,Kenai Peninsula,,,,99611
+54439,Bruce Platform,,Kenai Peninsula,,,,99611
+54440,Anna Platform,,Kenai Peninsula,,,,99611
+54442,Baker Platform,,Kenai Peninsula,,,,99611
+54444,Grayling Platform,,Kenai Peninsula,,,,99611
+54452,Agrium Kenai Nitrogen Op,Kenai,Kenai Peninsula,60.6732,-151.3784,Mile 21.5 Kenai Spur Highway,99611
+54834,Fort Greely,Delta Jct,,63.973572,-145.7172,606 Arctic Ave.,
+54871,Offshore Systems Inc,Dutch Harbor,Aleutian Islands,,,Mile 4 Captains Bay Rd.,99692
+54883,Bering Star,,Aleutian Islands,,,Bering Sea,99692
+54888,American President Lines Ltd,,Aleutian Islands,,,,99692
+55966,Nikiski Combined Cycle,Nikiski,Kenai Peninsula,60.676539,-151.3777,Milepost 21.4 Spur Highway,99635
+55982,Chena 6 Turbine,Fairbanks,Fairbanks North Star,,,1440 1st Avenue,99701
+56146,False Island,Thorne Bay,,55.48918,-133.1339,"Lot 6, Marine Industrial Park",99919
+56147,Viking,Craig,,55.540708,-133.1023,Mile 6 Craig/Klawock Highway,99921
+56265,South Fork,Klawock,,55.563333,-135.8996,Mile 8 Blackbear Lake Rd,99925
+56325,Delta Power,Delta Junction,,64.028056,-145.7181,1115 Richardson Highway,99737
+56542,Kasidaya Creek Hydro,Skagway,,59.4072,-135.3408,Near Kasidaya Creek,99840
+57036,Southcentral Power Plant,Anchorage,Anchorage,61.167417,-149.9053,5601 Electron Dr.,99519
+57051,Noatak,Noatak,Northwest Arctic,67.570931,-162.98,PO Box 89,99761
+57052,Savoonga,Savoonga,Nome,63.695267,-169.5889,PO Box 40,99769
+57053,Alakanuk,Alakanuk,,62.6833,-164.6544,PO Box 167,99554
+57054,Upper Kalskag,Upper Kalskag,Bethel,61.526858,-160.3481,PO Box 80,99607
+57055,Stebbins,Stebbins,Nome,63.521047,-162.2489,PO Box 22,99671
+57056,Scammon Bay,Scammon Bay,Wade Hampton,61.843036,-165.5815,PO Box 90,99662
+57057,Quinhagak,Quinhagak,Bethel,59.747436,-161.9008,PO Box 90,99655
+57058,Pilot Station,Pilot Station,Wade Hampton,61.936456,-162.875,PO Box 5040,99650
+57059,Koyuk,Koyuk,Nome,64.932089,-161.1671,PO Box 29,99753
+57060,Elim,Elim,Nome,64.616558,-162.2772,PO Box 39009,99739
+57061,St. Michael,St. Michael,Nome,63.4775,-162.0383,PO Box 59070,99659
+57062,Gambell,Gambell,Nome,63.777058,-171.7375,PO Box 189,99742
+57063,Shungnak,Shungnak,Northwest Arctic,66.888114,-156.9889,PO Box 59,99773
+57064,Kotlik,Kotlik,Wade Hampton,63.03215,-163.7614,PO Box 20268,99620
+57065,Kivalina,Kivalina,Northwest Arctic,67.726644,-163.7189,PO Box 50079,99750
+57066,Kasigluk,Kasigluk,Bethel,60.8731,-162.5197,PO Box 19 Akula Heights,99609
+57067,Toksook Bay,Toksook Bay,Bethel,60.530142,-164.7489,"Nelson Island, PO Box 37008",99637
+57085,Lake Dorothy,Juneau,Juneau,58.2325,-134.0533,Lake Dorothy,99801
+57187,Pillar Mountain,Kodiak,Kodiak Island,57.7869,-152.4406,Pillar Mountain,99615
+57206,Soldotna,Soldotna,Kenai Peninsula,60.499444,-150.9972,41925 Sterling Highway,99669
+57583,Battery Energy Storage System,Fairbanks,Fairbanks North Star,64.8167,-147.725,925 Bidwell Ave & 901 Bidwell,99701
+57935,Eva Creek Wind,Healy,Denali,64.058333,-148.9,Mile Post 10 Ferry Road,99743
+58117,TNSG South Plant,Deadhorse,North Slope,70.2,-148.4667,100 Power Plant Way,99374
+58278,TNSG North Plant,Deadhorse,North Slope,70.235278,-148.3836,100 Power Plant Way,99374
+58380,JBER Landfill Gas Power Plant,Anchorage,Anchorage,61.286,-149.611667,58900 Davis Highway,99505
+58405,ESS Battery,Kodiak,Kodiak Island,57.799167,-152.4042,891 Pillar Mountain Road,99615
+58425,Fire Island Wind,Anchorage,Anchorage,61.13,-150.2436,,99503
+58511,Delta Wind Farm,Delta Junction,Southeast Fairbanks,64.013889,-145.5967,Mile 1417.5 Alaska Hwy,99737
+58977,Whitman,Ketchikan,Ketchikan Gateway,55.328056,-131.5308,298 Powerhouse Road,99901
+58982,Allison Creek Hydro,Valdez,Valdez Cordova,61.084444,-146.3533,Mile 1 Dayville Rd,99686
+58989,Eklutna Generation Station,Chugiak,Anchorage,61.457778,-149.351389,28705 Denaina Elders Road,99567
+59027,Mahoney Lake Hydroelectric,Ketchikan,Ketchikan Gateway,55.419444,-131.5378,,99901
+59037,Reynolds Creek,Hydaburg,,55.216389,-132.6036,,99922
+59793,Industrial Plant,Juneau,Juneau,58.367635,-134.608,2500 Barrett Avenue,99801
+60243,Ambler,Ambler,Northwest Arctic,67.08798,-157.8567,60 Utility Drive,99786
+60244,Marshall,Marshall,Wade Hampton,61.878186,-162.0851,50 Utility Drive,99585
+60245,New Stuyahok,New Stuyahok,Dillingham,59.448358,-157.3255,64 Utility Drive,99636
+60250,Swampy Acres Microgrid,Kodiak,Kodiak Island,57.77556,-152.4803,Approx 4 MIles SW of Downtown,99615
+60260,Brevig Mission,Brevig Mission,Nome,65.331716,-166.4795,36 Utility Drive,99785
+60563,Flywheel Energy Storage System,Kodiak,Kodiak Island,57.780114,-152.4438,Gibson Cove,99615
+60588,Sweetheart Lake Hydroelectric Facility,Juneau,Juneau,57.9449,-133.6867,Gilbert Bay,99801
+60814,7-Mile Ridge Wind Project,Tok,Southeast Fairbanks,63.210689,-143.247156,TBD,99780
+61166,Tyee Lake Hydroelectric Facility,Wrangell,Wrangell Petersburg,56.216403,-131.5043,Bradfield Canal,99929
+61684,Klawock Power Generation Station,Klawock,,55.553197,-133.0854,6698 Klawock - Hollis Highway,99925
+61685,Slana Generating Station ,Slana,Southeast Fairbanks,62.592756,-143.5889,Mile 1 Nabesna Road,99586
+62714,Eyak Service Center BESS,Cordova,Valdez Cordova,60.54047,-145.7408,308 LeFevrre,99574
+65767,Gustavus,Gustavus,Skagway Hoonah Angoon,58.419497,-135.70737,5 Gustavus Road,99826

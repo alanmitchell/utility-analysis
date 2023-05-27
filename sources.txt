@@ -1,0 +1,9 @@
+IEA Sources
+
+https://www.iea.org/data-and-statistics/data-product/monthly-electricity-statistics#
+
+Look at this:
+https://www.eia.gov/electricity/annual/html/epa_03_01_a.html
+
+EIA Sources
+https://www.eia.gov/electricity/data.php

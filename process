@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# This script creates a number Alaska and Railbelt-specific CSV files in 
+# the proc/ directory.
+
+# This script depends on the environment variable PUDL_DIR being set
+# to the directory containing a pudl.sqlite file; pudl.sqlite is the
+# SQLite version of the PUDL database, which can be found at the 
+# bottom of this page:  https://data.catalyst.coop/pudl .
+# There also must be subdirectory of that directory named csv where a CSV file for every
+# PUDL table is found.  These CSV files can be created by running the 
+# 'to_csv.py' script in this repo.
+
+# Make a CSV with all Alaskan generation plants
+xsv search -s state "AK" $PUDL_DIR/csv/plants_entity_eia.csv \
+  | xsv select plant_id_eia,plant_name_eia,city,county,latitude,longitude,street_address,zip_code \
+  > proc/plants_ak.csv
+
+# Make a CSV with just the Railbelt plants, keeping only the important fields.
+# Needed to manually add a Healy plant EIA 6288 because it did not have a county
+# associated with it.  Removed Tok and Slana plants as not in the Railbelt.
+xsv cat rows \
+  <(xsv search -s county 'Anchorage|Kenai|Matanuska|Denali|Fairbanks' proc/plants_ak.csv) \
+  <(xsv search -s plant_id_eia '6288' proc/plants_ak.csv) \
+  | xsv search -v -s city 'Tok|Slana' \
+  | xsv select plant_id_eia,plant_name_eia,city \
+  > proc/plants_rb.csv
+
+# Create a CSV with generation fuel and electricity production for Alaskan plants
+xsv select plant_name_eia,city,plant_id_eia proc/plants_ak.csv > proc/temp_plants.csv
+xsv select plant_id_eia,report_date,fuel_type_code_pudl,fuel_consumed_for_electricity_mmbtu,net_generation_mwh \
+  $PUDL_DIR/csv/generation_fuel_eia923.csv > proc/temp_fuel.csv
+xsv join plant_id_eia proc/temp_fuel.csv plant_id_eia proc/temp_plants.csv \
+  | xsv select 1-7 \
+  > proc/generation_ak.csv
+rm proc/temp_fuel.csv proc/temp_plants.csv
+
+# Create a CSV of generation fuel & electricity for Railelt plants
+xsv join plant_id_eia proc/generation_ak.csv plant_id_eia proc/plants_rb.csv \
+  | xsv select 1-7 \
+  > proc/generation_rb.csv
