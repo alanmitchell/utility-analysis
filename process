@@ -4,12 +4,14 @@
 # the proc/ directory.
 
 # This script depends on the environment variable PUDL_DIR being set
-# to the directory containing a pudl.sqlite file; pudl.sqlite is the
-# SQLite version of the PUDL database, which can be found at the 
-# bottom of this page:  https://data.catalyst.coop/pudl .
-# There also must be subdirectory of that directory named csv where a CSV file for every
-# PUDL table is found.  These CSV files can be created by running the 
-# 'to_csv.py' script in this repo.
+# to the directory containing a subdirectory named 'csv'. This subdirectory
+# must contain a CSV file for each of the tables in the SQLite version of the
+# PUDL database. This database can be found at the bottom of this page: 
+# https://data.catalyst.coop/pudl .
+# These CSV files can be created by running the 'to_csv.py' script in this repo.
+
+# This script uses the `xsv` command line utility to process CSV files. This utility
+# can be found at: https://github.com/BurntSushi/xsv 
 
 # Make a CSV with all Alaskan generation plants
 xsv search -s state "AK" $PUDL_DIR/csv/plants_entity_eia.csv \
@@ -39,3 +41,7 @@ rm proc/temp_fuel.csv proc/temp_plants.csv
 xsv join plant_id_eia proc/generation_ak.csv plant_id_eia proc/plants_rb.csv \
   | xsv select 1-7 \
   > proc/generation_rb.csv
+
+# Create a CSV of generation for full US (not including fuel use)
+xsv select plant_id_eia,report_date,fuel_type_code_pudl,net_generation_mwh \
+  $PUDL_DIR/csv/generation_fuel_eia923.csv > proc/generation_us.csv
